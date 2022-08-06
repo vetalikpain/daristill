@@ -12,7 +12,7 @@ import Quote from '../components/Quote';
 import Title from '../components/Title';
 
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
-
+import '../styles/globalStyles.css'
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
@@ -27,14 +27,7 @@ const IndexPage = () => {
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
-      <Hero
-        maxWidth={'500px'}
-        image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
-      />
+
 
       {/* Message Container */}
       <div className={styles.messageContainer}>

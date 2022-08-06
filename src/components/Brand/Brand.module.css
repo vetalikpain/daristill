@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 @media (max-width: 800px) {
